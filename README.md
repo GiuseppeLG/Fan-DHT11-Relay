@@ -15,7 +15,7 @@ There are three operating cases:
 If you want to run sketch in this repository, you can connect components like this.
 
 <p align="center">
-  <img src="https://github.com/GiuseppeLG/Fan-DHT11-Relay/blob/master/prototype_layout.PNG" height="700" title="hover text">
+  <img src="https://github.com/GiuseppeLG/Fan-DHT11-Relay/blob/master/prototype_layout.PNG" height="400" title="hover text">
 </p>
 
 ## Config
