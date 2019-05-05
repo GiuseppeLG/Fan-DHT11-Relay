@@ -14,7 +14,7 @@ There are three operating cases:
 ## Prototype Layout
 If you want to run sketch in this repository, you can connect components like this.
 
-![prototype_layout](https://user-images.githubusercontent.com/14968550/57195431-920f7a00-6f52-11e9-9e8e-ed82d3c28bfc.PNG)
+![prototype_layout](https://user-images.githubusercontent.com/14968550/57195444-e74b8b80-6f52-11e9-89cc-c1088c0b169b.PNG)
 
 ## Config
 You can change the range of relay action simply edit conditions like this and replace the number of temp or humidity:
