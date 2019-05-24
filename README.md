@@ -1,15 +1,13 @@
 # Fan DHT11 Relay
 This is a system dht11 based for monitoring temperature and humidity indoor and turn on/off an electronic device. 
 
-It has been developed to report bad conditions based on the humidity that should be max 60% and temp between 22-23°C.
+It has been developed to report bad conditions based on the humidity that should be max 60% and temp between 23-24°C (in summer).
 
-There are three operating cases:
+There are two operating cases:
 
-* Too hot: Temp over 24°C, turn on relay.
+* Too hot: Temp over 25°C, turn on relay.
 
-* Hot and hight humidity: Humidity over 55% AND temp over 23°C
-
-* Hight humidity and not cold: Temperature over 22°C AND humidity over 60%. 
+* Hot and hight humidity: Humidity over 60% AND temp over 24°C
 
 ## Prototype Layout
 If you want to run sketch in this repository, you can connect components like this.
@@ -19,7 +17,7 @@ If you want to run sketch in this repository, you can connect components like th
 ## Config
 You can change the range of relay action simply edit conditions like this and replace the number of temp or humidity:
 ```c++
-if ((sensor.temperature) >= 24.00){
+if ((sensor.temperature) >= 25.00){
     digitalWrite(rele1, HIGH);
   }
 ```
