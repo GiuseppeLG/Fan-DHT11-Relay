@@ -17,13 +17,10 @@ void loop() {
   //String myString = String(sensor.temperature);
   //String myString2 = String(sensor.humidity);
 
-  if ((sensor.temperature) >= 24.00){
+  if ((sensor.temperature) >= 25.00){
     digitalWrite(rele1, HIGH);
   }
-  else if (((sensor.temperature) >= 23.00) && ((sensor.humidity) >= 55.00)){
-    digitalWrite(rele1, HIGH);
-  }
-  else if (((sensor.temperature) >= 22.00) && ((sensor.humidity) >= 60.00)){
+  else if (((sensor.temperature) >= 24.00) && ((sensor.humidity) >= 60.00)){
     digitalWrite(rele1, HIGH);
   }
   else {
