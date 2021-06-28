@@ -27,6 +27,9 @@ I recommend leaving the delay time to 10 sec, both for energy saving and to ensu
 
 It's a project focused on using a constant speed fan floor. A future development may be the addition of 2-3 relays to control the fan speed. Personally I don't prefer the fan too fast because it can be harmful to health.
 
+## Tips for Arduino NANO:
+Select Board: "Arduino Nano", Processor: "Atmega 328P (Old Bootloader) and install arduino nano drivers. 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
